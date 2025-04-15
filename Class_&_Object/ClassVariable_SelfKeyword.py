@@ -17,7 +17,12 @@ class Sample4:
         a=self.num1-self.num2-self.num3-num5
         print("Substraction of Numbers", a)
 
+    def div (self):
+        a=self.num1/self.num2/self.num3
+        print("Dividation of Numbers", a)
+
 s1=Sample4()
 s1.add()
 s1.mul()
 s1.sub(5)
+s1.div()
